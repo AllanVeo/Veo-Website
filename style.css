@@ -1,0 +1,127 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*================== font import ==================*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/*================== tag commun ==================*/
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #191919;
+    color: #ffffff;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #C84B31;
+}
+
+main p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*================== index.html ==================*/
+
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#main h1, #main p, #main #button{
+    margin: 40px 0;
+}
+
+#main h1{
+    font-size: 60px;
+}
+
+#main p{
+    font-size: 24px;
+}
+
+#main #button{
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    transition: 200ms;
+}
+
+#main #button:hover{
+    background: #C84B31;
+    border-color: #C84B31;
+}
+
+
+/*================== biographie.html ==================*/
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    height: 8vh;
+    width: 100%;;
+    padding: 0 100px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 100px;
+    text-transform: uppercase;
+    transition: 200ms;
+}
+
+nav a:hover{
+    color: #C84B31;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 150px 0;
+    margin: 0 auto;
+}
+
+.presentation{
+    display: flex;
+    width: 60%;
+}
+
+.presentation img{
+    border-radius: 12px;
+    margin-right: 50px;
+}
+
+.texte h2{
+    margin-bottom: 20px;
+}
+
+.texte p{
+    line-height: 30px;
+}
+
+/*================== contact.html ==================*/
+
+.contacts p{
+    margin: 30px 0;
+}
+
